@@ -1,0 +1,26 @@
+header {
+  background-color: rgb(240, 131, 7);
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.link {
+  display: inline-block;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: aliceblue;
+  font: 1em sans-serif;
+  font-weight: bolder;
+}

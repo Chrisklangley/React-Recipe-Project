@@ -1,0 +1,30 @@
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe {
+  border: 1px solid rebeccapurple;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instructions {
+  border: 1px solid rgb(37, 22, 52);
+  width: 40vw;
+  overflow: hidden;
+}
+
+.detail-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.instructions,
+.recipe {
+  margin-top: 15px;
+}

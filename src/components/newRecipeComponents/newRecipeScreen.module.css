@@ -1,0 +1,81 @@
+.title {
+  color: black;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.in {
+  border: 3px solid rgb(0, 0, 0);
+  height: 50px;
+  font-size: 16px;
+}
+
+.subs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.subs2 {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+input {
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input[type="radio"] {
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.addButton {
+  width: 120px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: orange;
+  border: none;
+}
+
+.saveButton {
+  width: 120px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: rgb(14, 107, 157);
+  border: none;
+  margin-top: 20px;
+}
+
+.alignButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+textarea {
+  width: 60vw;
+  height: 120px;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+  margin-top: 10px;
+}

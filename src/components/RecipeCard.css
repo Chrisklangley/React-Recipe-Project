@@ -1,0 +1,30 @@
+.main-recipe-containter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+span,
+input {
+  border-radius: 10px;
+}
+
+img {
+  height: 300px;
+  width: 250px;
+}
+
+.recipe-container {
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 250px;
+  box-shadow: 5px 2px 5px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 2px 5px 4px rgba(0, 0, 0, 0.75);
+
+  overflow: hidden;
+}
+
+.recipe-name {
+  color: black;
+}
